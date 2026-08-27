@@ -1,0 +1,65 @@
+config:
+  credentials:
+  - id: https://github.com/PalomoIFCA/private4
+    password_var: GIT_PASSWORD
+    username_var: GIT_USER
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: fix/updatego
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/PalomoIFCA/private4:
+      branch: main
+      credential_tmp: true
+      credentials_id: https://github.com/PalomoIFCA/private4
+      repo: https://github.com/PalomoIFCA/private4
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/PalomoIFCA/private4 git:
+        commands:
+        - /usr/bin/env sh .sqa/script.peony_careful_barracuda.sh
+        container: qc.acc_lagoon_impulsive_hyena
+  QC.Doc:
+    repos:
+      github.com/PalomoIFCA/private4 find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.pineapple_methodical_spren.sh
+        container: qc.doc_poppy_imaginative_cheetah
+      github.com/PalomoIFCA/private4 git:
+        commands:
+        - /usr/bin/env sh .sqa/script.ivory_innocent_donkey.sh
+        container: qc.doc_sapphire_content_dormouse
+  QC.Lic:
+    repos:
+      github.com/PalomoIFCA/private4 licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.peony_bold_albatross.sh
+        container: qc.lic_ultramarine_wondrous_armadillo
+  QC.Sec:
+    repos:
+      github.com/PalomoIFCA/private4 bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.smoke_energetic_horse.sh
+        container: qc.sec_paprika_honest_orangutan
+  QC.Sty:
+    repos:
+      github.com/PalomoIFCA/private4 flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.carmine_outgoing_rattlesnake.sh
+        container: qc.sty_indigo_easygoing_jaguar
+  QC.Uni:
+    repos:
+      github.com/PalomoIFCA/private4 pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.echelon_romantic_clownfish.sh
+        container: qc.uni_gray_understanding_turkey
+  QC.Ver:
+    repos:
+      github.com/PalomoIFCA/private4 get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.lavender_confident_peacock.sh
+        container: qc.ver_sienna_fair_donkey
+timeout: 5400
