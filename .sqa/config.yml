@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.peony_careful_barracuda.sh
-        container: qc.acc_lagoon_impulsive_hyena
+        - /usr/bin/env sh .sqa/script.polar_eccentric_kangaroo.sh
+        container: qc.acc_cayenne_tough_elephant
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private4 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pineapple_methodical_spren.sh
-        container: qc.doc_poppy_imaginative_cheetah
+        - /usr/bin/env sh .sqa/script.butter_sweet_bat.sh
+        container: qc.doc_sunset_persistent_manatee
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.ivory_innocent_donkey.sh
-        container: qc.doc_sapphire_content_dormouse
+        - /usr/bin/env sh .sqa/script.forest_bewildered_condor.sh
+        container: qc.doc_clove_spirited_sphinx
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private4 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.peony_bold_albatross.sh
-        container: qc.lic_ultramarine_wondrous_armadillo
+        - /usr/bin/env sh .sqa/script.beige_humorous_capybara.sh
+        container: qc.lic_incarnadine_methodical_cassowary
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private4 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.smoke_energetic_horse.sh
-        container: qc.sec_paprika_honest_orangutan
+        - /usr/bin/env sh .sqa/script.malachite_humorous_moose.sh
+        container: qc.sec_tide_dedicated_jellyfish
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private4 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.carmine_outgoing_rattlesnake.sh
-        container: qc.sty_indigo_easygoing_jaguar
+        - /usr/bin/env sh .sqa/script.forest_peppy_manta.sh
+        container: qc.sty_kiwi_curious_buffalo
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private4 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.echelon_romantic_clownfish.sh
-        container: qc.uni_gray_understanding_turkey
+        - /usr/bin/env sh .sqa/script.steel_flexible_uakari.sh
+        container: qc.uni_tide_diligent_hedgehog
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private4 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lavender_confident_peacock.sh
-        container: qc.ver_sienna_fair_donkey
+        - /usr/bin/env sh .sqa/script.fern_wondrous_antelope.sh
+        container: qc.ver_coral_apprehensive_hedgehog
 timeout: 5400
