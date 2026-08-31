@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.lemon_confident_hummingbird.sh
-        container: qc.acc_yellow_elated_tortoise
+        - /usr/bin/env sh .sqa/script.mustard_apathetic_nymph.sh
+        container: qc.acc_aquamarine_outgoing_nymph
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private4 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.jet_kind_beaver.sh
-        container: qc.doc_wine_confused_iguana
+        - /usr/bin/env sh .sqa/script.dahlia_harmonious_phoenix.sh
+        container: qc.doc_grege_tolerant_squid
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.daffodil_gracious_kingfisher.sh
-        container: qc.doc_scarlet_lucky_macaw
+        - /usr/bin/env sh .sqa/script.moss_gentle_alpaca.sh
+        container: qc.doc_boysenberry_calm_crocodile
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private4 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.snow_sarcastic_donkey.sh
-        container: qc.lic_frost_logical_owl
+        - /usr/bin/env sh .sqa/script.royal_graceful_squirrel.sh
+        container: qc.lic_red_cautious_salamander
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private4 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.heather_compassionate_catfish.sh
-        container: qc.sec_turmeric_harmonious_dhole
+        - /usr/bin/env sh .sqa/script.magenta_meticulous_condor.sh
+        container: qc.sec_caramel_bubbly_horse
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private4 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.orchid_enthusiastic_hippopotamus.sh
-        container: qc.sty_lavender_adaptable_penguin
+        - /usr/bin/env sh .sqa/script.sand_serene_heron.sh
+        container: qc.sty_brown_authentic_unicorn
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private4 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.cerise_nurturing_whale.sh
-        container: qc.uni_cerulean_philosophical_starfish
+        - /usr/bin/env sh .sqa/script.byzantium_ambitious_seal.sh
+        container: qc.uni_ruby_smart_ostrich
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private4 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamboge_articulate_albatross.sh
-        container: qc.ver_glacier_thankful_lionfish
+        - /usr/bin/env sh .sqa/script.sunset_amiable_iguana.sh
+        container: qc.ver_butter_sincere_llama
 timeout: 5400
