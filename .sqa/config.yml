@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.mustard_apathetic_nymph.sh
-        container: qc.acc_aquamarine_outgoing_nymph
+        - /usr/bin/env sh .sqa/script.beige_restless_tiger.sh
+        container: qc.acc_lapis_generous_orangutan
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private4 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dahlia_harmonious_phoenix.sh
-        container: qc.doc_grege_tolerant_squid
+        - /usr/bin/env sh .sqa/script.heather_confused_macaw.sh
+        container: qc.doc_cinnabar_assured_butterfly
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.moss_gentle_alpaca.sh
-        container: qc.doc_boysenberry_calm_crocodile
+        - /usr/bin/env sh .sqa/script.persimmon_sociable_grizzly.sh
+        container: qc.doc_chili_cheerful_dugong
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private4 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.royal_graceful_squirrel.sh
-        container: qc.lic_red_cautious_salamander
+        - /usr/bin/env sh .sqa/script.iris_joyful_orangutan.sh
+        container: qc.lic_pearl_elated_squirrel
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private4 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.magenta_meticulous_condor.sh
-        container: qc.sec_caramel_bubbly_horse
+        - /usr/bin/env sh .sqa/script.obsidian_mischievous_flounder.sh
+        container: qc.sec_watermelon_timid_axolotl
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private4 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.sand_serene_heron.sh
-        container: qc.sty_brown_authentic_unicorn
+        - /usr/bin/env sh .sqa/script.hunter_balanced_pelican.sh
+        container: qc.sty_cadet_grumpy_finch
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private4 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.byzantium_ambitious_seal.sh
-        container: qc.uni_ruby_smart_ostrich
+        - /usr/bin/env sh .sqa/script.caramel_warm_hamster.sh
+        container: qc.uni_sepia_inventive_squid
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private4 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sunset_amiable_iguana.sh
-        container: qc.ver_butter_sincere_llama
+        - /usr/bin/env sh .sqa/script.champagne_affectionate_uakari.sh
+        container: qc.ver_rust_forgiving_manta
 timeout: 5400
