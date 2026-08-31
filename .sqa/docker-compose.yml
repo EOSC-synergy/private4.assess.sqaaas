@@ -1,5 +1,5 @@
 services:
-  qc.acc_cinnabar_insightful_skunk:
+  qc.acc_pumpkin_perky_quail:
     command: sleep 6000000
     image: bitnami/git:2.34.1
     volumes:
@@ -7,15 +7,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.doc_chocolate_visionary_tortoise:
-    command: sleep 6000000
-    image: bitnami/git:2.34.1
-    volumes:
-    - source: ./
-      target: /sqaaas-build
-      type: bind
-    working_dir: /sqaaas-build
-  qc.doc_wisteria_brilliant_kraken:
+  qc.doc_glacier_content_goat:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Doc
       dockerfile: Dockerfile
@@ -25,7 +17,15 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.lic_pumpkin_shrewd_cassowary:
+  qc.doc_thunder_helpful_turkey:
+    command: sleep 6000000
+    image: bitnami/git:2.34.1
+    volumes:
+    - source: ./
+      target: /sqaaas-build
+      type: bind
+    working_dir: /sqaaas-build
+  qc.lic_sapphire_confused_turtle:
     command: sleep 6000000
     image: eoscsynergy/sqaaas-licensee:9.17.0
     volumes:
@@ -33,7 +33,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.sec_cherry_patient_python:
+  qc.sec_aquamarine_inspired_squid:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sec/bandit
       dockerfile: Dockerfile
@@ -43,7 +43,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.sty_chili_happy_skunk:
+  qc.sty_thunder_sociable_heron:
     command: sleep 6000000
     image: pipelinecomponents/flake8:0.19.0
     volumes:
@@ -51,7 +51,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.uni_kiwi_outgoing_narwhal:
+  qc.uni_malachite_content_rabbit:
     command: sleep 6000000
     image: eoscsynergy/sqaaas-pytest:7.1.3-alpha
     volumes:
@@ -59,7 +59,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.ver_dawn_inventive_lobster:
+  qc.ver_polar_shrewd_anaconda:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Ver
       dockerfile: Dockerfile

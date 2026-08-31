@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.thunder_determined_dolphin.sh
-        container: qc.acc_cinnabar_insightful_skunk
+        - /usr/bin/env sh .sqa/script.grape_witty_skunk.sh
+        container: qc.acc_pumpkin_perky_quail
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private4 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cerise_grumpy_rattlesnake.sh
-        container: qc.doc_wisteria_brilliant_kraken
+        - /usr/bin/env sh .sqa/script.lagoon_warm_horse.sh
+        container: qc.doc_glacier_content_goat
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.jet_rustic_orangutan.sh
-        container: qc.doc_chocolate_visionary_tortoise
+        - /usr/bin/env sh .sqa/script.grege_goofy_fox.sh
+        container: qc.doc_thunder_helpful_turkey
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private4 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.dusk_impulsive_thrush.sh
-        container: qc.lic_pumpkin_shrewd_cassowary
+        - /usr/bin/env sh .sqa/script.thunder_studious_shark.sh
+        container: qc.lic_sapphire_confused_turtle
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private4 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.bluebell_tactful_giraffe.sh
-        container: qc.sec_cherry_patient_python
+        - /usr/bin/env sh .sqa/script.banana_shy_raccoon.sh
+        container: qc.sec_aquamarine_inspired_squid
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private4 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.lapis_sympathetic_tiger.sh
-        container: qc.sty_chili_happy_skunk
+        - /usr/bin/env sh .sqa/script.pink_balanced_python.sh
+        container: qc.sty_thunder_sociable_heron
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private4 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.jasmine_optimistic_griffin.sh
-        container: qc.uni_kiwi_outgoing_narwhal
+        - /usr/bin/env sh .sqa/script.jasmine_proactive_dhole.sh
+        container: qc.uni_malachite_content_rabbit
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private4 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.orange_anxious_hippopotamus.sh
-        container: qc.ver_dawn_inventive_lobster
+        - /usr/bin/env sh .sqa/script.pink_devoted_boa.sh
+        container: qc.ver_polar_shrewd_anaconda
 timeout: 5400
