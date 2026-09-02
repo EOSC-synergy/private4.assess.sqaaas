@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.jade_organized_finch.sh
-        container: qc.acc_gunmetal_enthusiastic_iguana
+        - /usr/bin/env sh .sqa/script.ochre_candid_termite.sh
+        container: qc.acc_beige_patient_walrus
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private4 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.strawberry_bubbly_manatee.sh
-        container: qc.doc_ice_nervous_kraken
+        - /usr/bin/env sh .sqa/script.scarlet_warm_cobra.sh
+        container: qc.doc_walnut_humorous_spider
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.smoke_independent_ostrich.sh
-        container: qc.doc_powder_empathetic_panda
+        - /usr/bin/env sh .sqa/script.gunmetal_devoted_iguana.sh
+        container: qc.doc_salmon_organized_boa
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private4 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.fog_sad_kiwi.sh
-        container: qc.lic_plum_supportive_elephant
+        - /usr/bin/env sh .sqa/script.puce_vigilant_sparrow.sh
+        container: qc.lic_puce_silly_peacock
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private4 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.ice_flexible_lobster.sh
-        container: qc.sec_copper_attentive_roc
+        - /usr/bin/env sh .sqa/script.wine_agile_griffin.sh
+        container: qc.sec_sepia_smart_sloth
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private4 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.periwinkle_resilient_bear.sh
-        container: qc.sty_ochre_easygoing_lobster
+        - /usr/bin/env sh .sqa/script.aqua_focused_macaw.sh
+        container: qc.sty_byzantium_mischievous_manta
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private4 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.lapis_understanding_beaver.sh
-        container: qc.uni_cosmos_cautious_kiwi
+        - /usr/bin/env sh .sqa/script.orange_productive_squirrel.sh
+        container: qc.uni_claret_lively_ostrich
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private4 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.jasmine_methodical_wasp.sh
-        container: qc.ver_carmine_assured_impala
+        - /usr/bin/env sh .sqa/script.sepia_artistic_turtle.sh
+        container: qc.ver_tide_dreamy_capybara
 timeout: 5400
