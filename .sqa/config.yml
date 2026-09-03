@@ -20,46 +20,46 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.cobalt_lucky_barracuda.sh
-        container: qc.acc_dusk_thankful_bat
+        - /usr/bin/env sh .sqa/script.carmine_focused_axolotl.sh
+        container: qc.acc_cobalt_driven_shark
   QC.Doc:
     repos:
       github.com/PalomoIFCA/private4 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.storm_grateful_beaver.sh
-        container: qc.doc_purple_forgiving_falcon
+        - /usr/bin/env sh .sqa/script.celadon_grumpy_cougar.sh
+        container: qc.doc_onyx_joyful_frog
       github.com/PalomoIFCA/private4 git:
         commands:
-        - /usr/bin/env sh .sqa/script.mist_inventive_warthog.sh
-        container: qc.doc_mahogany_innocent_spren
+        - /usr/bin/env sh .sqa/script.tundra_analytical_uakari.sh
+        container: qc.doc_sienna_silly_lobster
   QC.Lic:
     repos:
       github.com/PalomoIFCA/private4 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.arctic_candid_roc.sh
-        container: qc.lic_bluebell_studious_boa
+        - /usr/bin/env sh .sqa/script.reef_scrappy_cougar.sh
+        container: qc.lic_vermilion_dramatic_stingray
   QC.Sec:
     repos:
       github.com/PalomoIFCA/private4 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.nutmeg_gentle_ocelot.sh
-        container: qc.sec_navy_vigilant_gnu
+        - /usr/bin/env sh .sqa/script.viridian_fair_piranha.sh
+        container: qc.sec_peony_philosophical_hydra
   QC.Sty:
     repos:
       github.com/PalomoIFCA/private4 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.tangerine_resilient_wasp.sh
-        container: qc.sty_frost_trustworthy_toad
+        - /usr/bin/env sh .sqa/script.bluebell_daring_hyena.sh
+        container: qc.sty_sapphire_easygoing_capybara
   QC.Uni:
     repos:
       github.com/PalomoIFCA/private4 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.cinnamon_persistent_cobra.sh
-        container: qc.uni_wave_mischievous_groundhog
+        - /usr/bin/env sh .sqa/script.umber_frugal_termite.sh
+        container: qc.uni_marigold_relaxed_vulture
   QC.Ver:
     repos:
       github.com/PalomoIFCA/private4 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.frost_brave_snail.sh
-        container: qc.ver_wine_positive_sparrow
+        - /usr/bin/env sh .sqa/script.green_fair_penguin.sh
+        container: qc.ver_celadon_nurturing_stork
 timeout: 5400
